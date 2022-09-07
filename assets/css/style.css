@@ -8,9 +8,6 @@ body {
     margin: 0;
     padding: 0;
     color: white;
-    width: 100vw;
-
-    overflow-x: hidden;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -45,18 +42,14 @@ button:active {
     align-items: center;
     font-size: 20px;
 
-
 }
 
 #name-surname a {
     padding: 20px;
     color: white;
-    font-size: 1.2em;
-    display: inline-block;
 }
 
 #nav a {
-    font-size: 3vw;
     padding: 10px;
     color: gray;
 }
@@ -78,33 +71,28 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 header #book img {
     width: 85vw;
     max-width: 400px;
     box-shadow: 2px 2px 20px gray;
-    position: relative;
-    top: 50px;
 }
 
 header #info-book {
-    width: 300px;
+    max-width: 340px;
+    font-size: 0.5em;
     font-weight: 100;
     margin: 30px;
     text-transform: uppercase;
-
     letter-spacing: 2px;
     text-shadow: 3px 3px black;
     text-align: center;
+    font-family: 'Roboto';
 }
 
-@media screen and (max-width:766px) {
-    header {
-        flex-direction: column;
-    }
 
-}
 
 section#trailer {
     background-color: black;
@@ -180,4 +168,12 @@ footer p {
     font-family: 'Roboto';
     font-size: 13px;
     width: 300px;
+}
+
+@media screen and (max-width:600px) {
+
+    #top-social,
+    #nav {
+        display: none;
+    }
 }
