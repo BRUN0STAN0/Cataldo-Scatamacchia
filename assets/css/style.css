@@ -221,14 +221,15 @@ footer {
 }
 
 footer a {
-    font-size: 20px;
+    font-size: 24px;
     color: white;
     padding: 5%;
 }
 
 footer p {
     font-family: 'Roboto';
-    font-size: 13px;
+    text-align: center;
+    font-size: 15px;
     width: 300px;
 }
 
@@ -249,8 +250,9 @@ footer p {
         display: none;
     }
 
-    footer a {
-        display: none;
+    footer {
+        display: flex;
+        flex-direction: column;
     }
 
     #ellipsis {
