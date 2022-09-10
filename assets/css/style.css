@@ -233,6 +233,11 @@ footer p {
     width: 300px;
 }
 
+footer p a {
+    font-size: 15px;
+    padding: 0px;
+}
+
 /* VIEWPORT */
 
 @media screen and (max-width: 800px) {
