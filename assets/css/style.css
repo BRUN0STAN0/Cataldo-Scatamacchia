@@ -122,6 +122,8 @@ header #book img {
     box-shadow: 2px 2px 20px gray;
 }
 
+/* INFO BOOK */
+
 header #info-book {
     max-width: 340px;
     font-size: 0.5em;
@@ -134,7 +136,11 @@ header #info-book {
     font-family: 'Roboto';
 }
 
+header #info-book a {
+    color: white;
+}
 
+/* TRAILER */
 
 section#trailer {
     background-color: black;
@@ -167,19 +173,32 @@ iframe {
     margin-block: 40px;
 }
 
+/* SELL IMAGE */
+#sell-image {
+    background-image: url('../img/Book-Copertina.png');
+    background-size: 160%;
+    height: 105vw;
+}
+
+/* LIBRERIA */
 
 section#libreria {
     background-image: url(../img/Wallpaper2.png);
     background-size: cover;
-    height: calc(100vh - 50px);
+    height: calc(80vh - 50px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+section#libreria a {
+    color: white;
+}
+
 section#libreria h1 {
     font-size: 5rem;
+    margin: 0px;
 }
 
 section#libreria h2 {
