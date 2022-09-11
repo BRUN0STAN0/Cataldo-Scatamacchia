@@ -109,7 +109,7 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,9 +175,18 @@ iframe {
 
 /* SELL IMAGE */
 #sell-image {
-    background-image: url('../img/Book-Copertina.png');
-    background-size: 160%;
-    height: 105vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sell-image div {}
+
+#sell-image img {
+    width: 90%;
+    max-width: 800px;
+    border-radius: 20px;
 }
 
 /* LIBRERIA */
@@ -185,7 +194,7 @@ iframe {
 section#libreria {
     background-image: url(../img/Wallpaper2.png);
     background-size: cover;
-    height: calc(80vh - 50px);
+    min-height: calc(60vh - 50px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -208,7 +217,7 @@ section#libreria h2 {
 
 section#libreria #buy {
     text-align: center;
-    max-width: 400px;
+    max-width: 600px;
 }
 
 footer {
@@ -218,6 +227,8 @@ footer {
     align-items: center;
     justify-content: space-around;
     padding-inline: 2%;
+    text-align: center;
+
 }
 
 footer a {
@@ -228,9 +239,8 @@ footer a {
 
 footer p {
     font-family: 'Roboto';
-    text-align: center;
     font-size: 15px;
-    width: 300px;
+    max-width: 300px;
 }
 
 footer p a {
