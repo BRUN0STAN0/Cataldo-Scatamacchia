@@ -173,6 +173,21 @@ nav {
     background-image: url('../img/Coraline.jpg')
 }
 
+#carouselExampleDark {
+    margin-top: 80px;
+}
+
+.carousel-caption {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 0 auto;
+}
+
+#accordionExample {
+    margin-top: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
 header {
     background-image: url('../img/Wallpaper.jpg');
     background-size: cover;
@@ -184,6 +199,9 @@ header {
     align-items: center;
     flex-wrap: wrap;
     padding: 30px;
+}
+header#autore {
+    background-image: url("../img/Cataldo.png");
 }
 
 header #book img {
@@ -387,7 +405,7 @@ footer p a {
 
 /* VIEWPORT */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1100px) {
 
     header {
         transition: 1s;
